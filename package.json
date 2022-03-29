@@ -1,0 +1,31 @@
+{
+  "name": "helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fast.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "play": "yarn tsc && node dist/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/stream-json": "^1.7.2",
+    "axios": "^0.26.1",
+    "dayjs": "^1.10.7",
+    "fs": "^0.0.1-security",
+    "google": "^2.1.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^3.2.3",
+    "react-google-charts": "^3.0.15",
+    "stream-json": "^1.7.4",
+    "yarn": "^1.22.18",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.2"
+  }
+}
